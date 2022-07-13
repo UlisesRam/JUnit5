@@ -1,9 +1,10 @@
 package org.aguzman.junit5app.ejemplos.models;
 
+import lombok.Data;
 import org.aguzman.junit5app.ejemplos.exceptions.DineroInsuficienteException;
 
 import java.math.BigDecimal;
-
+@Data
 public class Cuenta {
     private String persona;
     private BigDecimal saldo;
